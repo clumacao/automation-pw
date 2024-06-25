@@ -1,0 +1,7 @@
+{
+    "Add"         : "Add",
+    "Subtract"    : "Subtract",
+    "Multiply"    : "Multiply",
+    "Divide"      : "Divide",
+    "Concatenate" : "Concatenate"
+}
