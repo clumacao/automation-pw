@@ -1,0 +1,15 @@
+#version: "3.7"
+version: "4.13.1"
+
+services:
+  test:
+    container_name: e2e
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: on-failure 
+    #entrypoint: ["npm", "run", "test"]
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/e2e
